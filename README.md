@@ -1,18 +1,32 @@
- Weather Application
+# Weather Application
 
-A Java-based desktop application that fetches and displays real-time weather data for a specified city. The application uses the OpenWeatherMap API to provide weather updates.
+This is a desktop-based **Java Swing** application that fetches real-time weather data from the **OpenWeatherMap API** and displays it in a graphical interface. The user can input a city name to retrieve the current weather conditions, temperature, humidity, and wind speed.
 
- Features
+## Features
 
-- **Real-Time Weather Data**: Fetch and display current weather information including temperature, weather condition, humidity, and wind speed.
-- **Dynamic Icons**: Weather icons change based on the current weather condition (Clear, Clouds, Rain, Snow).
-- **City-Based Search**: Enter a city name to get the weather details for that location.
+- **City-Based Weather Search**: Input any city name to get current weather information.
+- **Real-Time Data**: Fetches live data from OpenWeatherMap.
+- **Weather Icons**: Displays appropriate icons for weather conditions like clouds, rain, snow, etc.
+- **Responsive UI**: User-friendly interface built with Java Swing.
+- **Error Handling**: Displays error messages for invalid inputs or network issues.
 
- Technologies Used
+## Technologies Used
 
-- **Java**: For developing the application.
-- **Swing**: For creating the graphical user interface (GUI).
+- **Java Swing**: For building the graphical user interface (GUI).
 - **OpenWeatherMap API**: To fetch real-time weather data.
-- **JSON**: For parsing weather data from the API response.
+- **JSON Parsing**: For processing the API response.
+- **Maven**: Project management and dependency management.
+
+## Screenshots
+
+Here is a screenshot of the Weather Application:
+
+![Weather Application](assest/weatherimg.jpeg)
+
+## How to Run
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/weather-application.git
 
  
