@@ -27,6 +27,6 @@ Here is a screenshot of the Weather Application:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/weather-application.git
+   git clone https://github.com/Ritesh-Gawai/weather-application.git
 
  
